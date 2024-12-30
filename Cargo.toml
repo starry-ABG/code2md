@@ -1,0 +1,13 @@
+[package]
+name = "code2md"
+version = "0.1.0"
+edition = "2021"
+authors = ["starry-ABG <johnstarrysky@gmail.com>"]
+description = "A CLI tool that recursively collects files (excluding hidden & certain folders/files) and outputs them into a markdown file."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/YourName/extract_all_files"
+documentation = "https://docs.rs/extract_all_files"
+
+[dependencies]
+walkdir = "2.3.2"
